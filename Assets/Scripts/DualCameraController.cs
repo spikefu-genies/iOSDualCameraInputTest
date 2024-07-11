@@ -61,14 +61,14 @@ public class DualCameraController : MonoBehaviour
     public void UpdateFrontCameraTexture(string base64FrameData)
     {
         byte[] frameData = Convert.FromBase64String(base64FrameData);
-        frontTexture.LoadRawTextureData(frameData);
-        frontTexture.Apply();
+        // frontTexture.LoadRawTextureData(frameData);
+        // frontTexture.Apply();
     }
 
     public void UpdateBackCameraTexture(string base64FrameData)
     {
         byte[] frameData = Convert.FromBase64String(base64FrameData);
-        backTexture.LoadRawTextureData(frameData);
-        backTexture.Apply();
+        // backTexture.LoadRawTextureData(frameData);
+        // backTexture.Apply();
     }
 }
